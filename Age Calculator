@@ -1,1 +1,26 @@
-Age calculator
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+</head>
+
+<body>
+  <div class="continer">
+    <h1>Age Calculator</h1>
+    <div>
+      <label for="birthday">Enter you date of bith </label>
+      <input type="date" id="birthday" name="birthday">
+      <br />
+
+      <button id="btn">Calculate Age</button>
+      <p id="result">Your age 21 years old</p>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
